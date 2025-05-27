@@ -30,7 +30,8 @@ public class Player {
             ;
         }
         if (this.state==1){
-            Player.setNumCase(number.nextInt(1,6));
+            //Player.setNumCase(number.nextInt(1,6));
+            //Moi aussi je travaille bande de chiens
         }
     }
 
