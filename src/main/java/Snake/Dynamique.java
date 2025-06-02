@@ -1,6 +1,6 @@
 package Snake;
 
-public class Dynamique {
+public class Dynamique extends Evenements{
     protected int finishCase;
 
 }
