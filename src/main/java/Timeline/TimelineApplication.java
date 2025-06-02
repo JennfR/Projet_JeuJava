@@ -1,6 +1,5 @@
 package Timeline;
 
-import com.example.HomePage.HelloApplication;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -11,7 +10,7 @@ import java.io.IOException;
 public class TimelineApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Timeline.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader();
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.setTitle("Hello!");
         stage.setScene(scene);

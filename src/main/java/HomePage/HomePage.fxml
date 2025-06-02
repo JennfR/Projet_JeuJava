@@ -24,7 +24,6 @@
                         /* Couleur orange simulée si besoin, sinon image réelle */
                         -fx-background-color: #FFA735; -fx-background-radius: 10;
                     </style>
-                    <!-- Remplace le path ci-dessous par le tien -->
                     <Image url="Logo.png"/>
                 </ImageView>
                 <!-- Grand bouton vert -->
