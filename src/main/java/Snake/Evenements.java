@@ -1,4 +1,4 @@
-package com.example.demo;
+package Snake;
 
 public class Evenements {
     protected int numCase;
