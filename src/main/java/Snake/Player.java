@@ -25,7 +25,7 @@ public class Player {
 
     public int getNumPlayer() {return numPlayer;}
 
-    public int diceThrow(){
+    /*public int diceThrow(){
         if (state==0){
             ;
         }
@@ -35,7 +35,7 @@ public class Player {
             //Moi aussi je travaille bande de chiens
             ;
         }
-    }
+    }*/
 
     public void restartGame(){
         this.state=1;
