@@ -14,7 +14,4 @@ public class HomePageController {
         welcomeText.setText("Welcome to JavaFX Application!");
     }
 
-    public void caca(){
-        Stage stage = new Stage();
-    }
 }
