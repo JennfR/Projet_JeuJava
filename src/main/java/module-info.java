@@ -7,4 +7,6 @@ module com.example.demo {
     exports com.example.demo;
     exports Snake;
     opens Snake to javafx.fxml;
+    exports HomePage;
+    opens HomePage to javafx.fxml;
 }
