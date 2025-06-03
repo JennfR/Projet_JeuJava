@@ -1,6 +1,6 @@
-package Snake;
+package SnakesAndLadders;
 
-public class Static extends Evenements{
+public class Static extends Events{
 
     public Static(int numCase){
         super(numCase);
