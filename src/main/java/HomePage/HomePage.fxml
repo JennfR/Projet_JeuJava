@@ -11,7 +11,7 @@
          <children>
             <ImageView fitHeight="255.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true" />
          </children></AnchorPane>
-      <Button layoutX="136.0" layoutY="131.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="255.0" prefWidth="145.0" style="-fx-background-color: #576FD0;" text="TimeLine" textAlignment="CENTER">
+      <Button layoutX="136.0" layoutY="131.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="255.0" prefWidth="145.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="TimeLine" textAlignment="CENTER">
          <font>
             <Font name="Open Sans ExtraBold" size="23.0" />
          </font></Button>
