@@ -5,15 +5,24 @@ import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 public class HomePageController {
+    HomePageController homePageController = new HomePageController();
 
     @FXML
-    private void startSnake(){
+    public void startSnake(){
         System.out.println("Snake");
     }
 
     @FXML
-    private void startTimeline() {
+    public void startTimeline() {
         System.out.println("TimeLine");
+    }
+    @FXML
+    public void startJeuDuJour(int day){
+        if (day%2==0){
+            homePageController.startSnake();
+        }else{
+            homePageController.startTimeline();
+        }
     }
 
 }
