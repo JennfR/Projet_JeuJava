@@ -5,13 +5,15 @@ import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 public class HomePageController {
-    @FXML
-    private Label welcomeText;
 
     @FXML
-    protected void onHelloButtonClick() {
+    private void startSnake(){
+        System.out.println("Snake");
+    }
 
-        welcomeText.setText("Welcome to JavaFX Application!");
+    @FXML
+    private void startTimeline() {
+        System.out.println("TimeLine");
     }
 
 }
