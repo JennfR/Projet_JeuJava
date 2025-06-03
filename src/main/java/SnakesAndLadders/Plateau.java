@@ -1,7 +1,9 @@
-package Snake;
+package SnakesAndLadders;
 
 public class Plateau {
     private int totalCase;
     private int totalPlayers;
-    private String caca;
+
+
+    //class might be useless
 }

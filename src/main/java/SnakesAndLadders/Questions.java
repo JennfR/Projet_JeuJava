@@ -1,4 +1,4 @@
-package Snake;
+package SnakesAndLadders;
 
 public class Questions extends Static {
     protected String type;
