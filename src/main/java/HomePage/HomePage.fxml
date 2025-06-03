@@ -1,45 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.text.*?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.Label?>
 
-<BorderPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml"
-            style="-fx-background-color: #5C5756;" prefWidth="850" prefHeight="600">
-    <center>
-        <VBox spacing="10" padding="10" style="-fx-background-color: #dddddd; -fx-background-radius: 15;"
-              BorderPane.alignment="CENTER">
-            <HBox spacing="10">
-                <!-- Logo (orange carré) -->
-                <ImageView fitWidth="70" fitHeight="70">
-                    <VBox.margin>
-                        <Insets right="10"/>
-                    </VBox.margin>
-                    <style>
-                        /* Couleur orange simulée si besoin, sinon image réelle */
-                        -fx-background-color: #FFA735; -fx-background-radius: 10;
-                    </style>
-                    <Image url="Logo.png"/>
-                </ImageView>
-                <!-- Grand bouton vert -->
-                <Button prefWidth="650" prefHeight="150" text=" "
-                        style="-fx-background-color: #41E8A9; -fx-background-radius: 12;"/>
-            </HBox>
-
-            <!-- Trois boutons bleus en dessous -->
-            <HBox spacing="18" alignment="CENTER">
-                <Button text="TIMELINE" prefWidth="200" prefHeight="250"
-                        style="-fx-background-color: #6273DB; -fx-text-fill: black; -fx-font-weight: bold; -fx-font-size: 32px; -fx-background-radius: 12;"/>
-                <Button text="SNAKE" prefWidth="200" prefHeight="250"
-                        style="-fx-background-color: #6273DB; -fx-text-fill: black; -fx-font-weight: bold; -fx-font-size: 32px; -fx-background-radius: 12;"/>
-                <Button text="COMING&#10;SOON..." wrapText="true" prefWidth="200" prefHeight="250"
-                        style="-fx-background-color: #6273DB; -fx-text-fill: black; -fx-font-weight: bold; -fx-font-size: 32px; -fx-background-radius: 12;"/>
-            </HBox>
-        </VBox>
-    </center>
-</BorderPane>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="136.0" layoutY="131.0" prefHeight="255.0" prefWidth="145.0">
+         <children>
+            <ImageView fitHeight="255.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true" />
+         </children></AnchorPane>
+      <Button layoutX="136.0" layoutY="131.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="255.0" prefWidth="145.0" style="-fx-background-color: #576FD0;" text="TimeLine" textAlignment="CENTER">
+         <font>
+            <Font name="Open Sans ExtraBold" size="23.0" />
+         </font></Button>
+      <AnchorPane layoutX="288.0" layoutY="131.0" prefHeight="255.0" prefWidth="145.0">
+         <children>
+            <ImageView fitHeight="255.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true" />
+         </children></AnchorPane>
+      <Button layoutX="288.0" layoutY="131.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="255.0" prefWidth="145.0" style="-fx-background-color: #576FD0;" text="Snake" textAlignment="CENTER">
+         <font>
+            <Font name="Open Sans ExtraBold" size="32.0" />
+         </font></Button>
+      <AnchorPane layoutX="440.0" layoutY="131.0" prefHeight="255.0" prefWidth="145.0">
+         <children>
+            <ImageView fitHeight="255.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true" />
+         </children></AnchorPane>
+      <Button layoutX="440.0" layoutY="131.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="255.0" prefWidth="145.0" style="-fx-background-color: #576FD0;" text="Coming&#10;Soon..." textAlignment="CENTER">
+         <font>
+            <Font name="Open Sans ExtraBold" size="27.0" />
+         </font></Button>
+      <Button layoutX="136.0" layoutY="14.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="94.0" prefWidth="450.0" style="-fx-background-color: #44DD8B;" text="Jeu du jour">
+         <font>
+            <Font name="Open Sans ExtraBold" size="39.0" />
+         </font></Button>
+      <AnchorPane layoutX="14.0" layoutY="14.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="94.0" prefWidth="94.0">
+         <children>
+            <ImageView fitHeight="94.0" fitWidth="94.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="21.0">
+               <image>
+                  <Image url="@Logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
