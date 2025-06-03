@@ -3,9 +3,8 @@ module com.example.demo {
     requires javafx.fxml;
 
 
-    opens com.example.HomePage to javafx.fxml;
+    opens HomePage to javafx.fxml;
     exports Snake;
     opens Snake to javafx.fxml;
     exports HomePage;
-    opens HomePage to javafx.fxml;
 }
