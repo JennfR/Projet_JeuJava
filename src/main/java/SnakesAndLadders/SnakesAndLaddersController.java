@@ -12,4 +12,8 @@ public class SnakesAndLaddersController {
         DiceRoll.setText("testClick");
     }
 
+    protected void setDiceRoll(){
+        ;
+    }
+
 }
