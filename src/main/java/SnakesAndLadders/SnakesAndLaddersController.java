@@ -5,12 +5,11 @@ import javafx.scene.control.Button;
 
 public class SnakesAndLaddersController {
     @FXML
-    private Button click;
+    private Button DiceRoll;
 
     @FXML
     protected void displayMessage(){
-        click.setText("testClick");
+        DiceRoll.setText("testClick");
     }
 
-    protected
 }
