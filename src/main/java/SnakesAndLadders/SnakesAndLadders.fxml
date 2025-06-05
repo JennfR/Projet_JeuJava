@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #AA2CF3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SnakesAndLadders.SnakesAndLadders">
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #AA2CF3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SnakesAndLadders.SnakesAndLaddersController">
    <children>
       <AnchorPane layoutX="10.0" layoutY="70.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="580.0">
          <children>
@@ -13,5 +14,6 @@
                </image>
             </ImageView>
          </children></AnchorPane>
+      <Button fx:id="click" layoutX="64.0" layoutY="26.0" mnemonicParsing="false" onAction="#displayMessage" text="click" />
    </children>
 </AnchorPane>

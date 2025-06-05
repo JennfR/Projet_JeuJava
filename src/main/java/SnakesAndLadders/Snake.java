@@ -12,7 +12,7 @@ public class Snake extends Dynamic{
 
     public void changePlayerPosition(Player player){
         //player must move backwards on the board
-        player.setPosition(finishCase); //why the error
+        player.setPosition(finishCase);
     }
 
 }
