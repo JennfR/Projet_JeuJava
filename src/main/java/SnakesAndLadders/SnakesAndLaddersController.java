@@ -11,4 +11,6 @@ public class SnakesAndLaddersController {
     protected void displayMessage(){
         click.setText("testClick");
     }
+
+    protected
 }

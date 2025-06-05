@@ -14,6 +14,10 @@
                </image>
             </ImageView>
          </children></AnchorPane>
-      <Button fx:id="click" layoutX="64.0" layoutY="26.0" mnemonicParsing="false" onAction="#displayMessage" text="click" />
+      <Label layoutX="66.0" layoutY="32.0" text="Player 1" />
+      <Label layoutX="181.0" layoutY="32.0" />
+      <Label layoutX="329.0" layoutY="31.0" prefHeight="18.0" prefWidth="43.0" text="Player 3" />
+      <Label layoutX="460.0" layoutY="32.0" text="PLayer 4" />
+      <Label layoutX="196.0" layoutY="32.0" text="Player 2 " />
    </children>
 </AnchorPane>
