@@ -8,7 +8,7 @@
    <children>
       <ImageView fx:id="Background" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Images/Woodtable.jpg" />
+            <Image url="@Images/wooden-texture.jpg" />
          </image></ImageView>
       <ImageView fx:id="Card1" fitHeight="127.0" fitWidth="100.0" layoutX="19.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="14.0" />
       <ImageView fx:id="Card2" fitHeight="127.0" fitWidth="100.0" layoutX="132.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true" />
