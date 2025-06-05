@@ -1,5 +1,7 @@
 package Timeline;
 
+import java.util.ArrayList;
+
 public class Card {
     private String name; //Name of the event
     private int date; //Date of the event
@@ -18,4 +20,17 @@ public class Card {
     {
         return number;
     }
+    public String getName()
+    {
+        return this.name;
+    }
+    public String getImagePath()
+    {
+        return this.imagePath;
+    }
+    public void setFirstPosition(int firstPosition)
+    {
+        this.firstPosition=firstPosition;
+    }
+
 }

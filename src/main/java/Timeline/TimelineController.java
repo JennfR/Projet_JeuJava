@@ -12,17 +12,24 @@ public class TimelineController{
     private int selectedCardIndex;
     private Map<Integer, Button> carButtons  = new HashMap<>();
     private Map<Integer, Button> spaceButtons = new HashMap();
-    //@FXML
-    /*public void initialize(){
-        Creatcards();
-        carButtons.put(1, Card1);
-        carButtons.put(2, Card2);
-        carButtons.put(3, Card3);
-        carButtons.put(4, Card4);
-        carButtons.put(5, Card5);
-    }*/
-    /*protected int Select_the_card(ActionEvent event){
+    @FXML
+    public void setButton(String path)
+    {
 
-    }*/
+    }
+    public void initialize(Card TabCard[]){
+        for (int i=0;i<5;i++)
+        {
+          TabCard[i].setFirstPosition(i);
+        }
+        carButtons.put(1, Button);
+        carButtons.put(2, TabCard[1]);
+        carButtons.put(3, TabCard[2]);
+        carButtons.put(4, TabCard[3]);
+        carButtons.put(5, TabCard[4]);
+    }
+    protected int Select_the_card(ActionEvent event){
+
+    }
 
 }
